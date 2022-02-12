@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/giftExpertApp/static/css/main.1cd94440.css",
+    "main.js": "/giftExpertApp/static/js/main.f146a76b.js",
+    "index.html": "/giftExpertApp/index.html",
+    "main.1cd94440.css.map": "/giftExpertApp/static/css/main.1cd94440.css.map",
+    "main.f146a76b.js.map": "/giftExpertApp/static/js/main.f146a76b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cd94440.css",
+    "static/js/main.f146a76b.js"
+  ]
+}
