@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* El orden de las propiedades deben ser en orden alfabético */
+/* Se recomienda de manera personal usar SAAS para react */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+input {
+    color: grey;
+    font-size: 16px;
+    width: 100%; 
 }
+
+.card-grid {
+    display: grid;
+    /* hace responsive las columnas */
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-auto-rows: minmax(350px, auto);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-content {
+    border: 1px solid grey;
+    border-radius: 6px;
+    height: fit-content;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.card {
+    border: 1px solid grey;
+    object-fit: cover;
+}
+
+.card-content  img {
+    width: 100%;
+}
+
+
+
+.text-item p {
+    padding: 6px;
+    text-align: center;
+}
+
